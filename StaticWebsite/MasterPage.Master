@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="StaticWebsite.MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title of the document</title>
+    <link href="Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <asp:Panel ID="Panel1" runat="server" BackImageUrl="~/Images/panel.jpg">
+            <div id="wrapper">
+                
+                <header id="header">
+                </header>
+                <nav id="nav">
+                    <ul id="menu">
+                        <li> <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UI/Home.aspx">Home</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/UI/About.aspx">About</asp:HyperLink></li>     
+                        <li> <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/UI/ContractUs.aspx">Contact Us</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/UI/Portfolio.aspx">Portfolio</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/UI/History.aspx">History</asp:HyperLink>
+                            <ul>
+                                <li><asp:HyperLink ID="HyperLink11" runat="server">HyperLink</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink12" runat="server">HyperLink</asp:HyperLink></li>
+                                <li><asp:HyperLink ID="HyperLink13" runat="server">HyperLink</asp:HyperLink></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+                <section id="section">
+                    <%--<aside id="aside">
+                        
+                         <ul id="main_menu">
+                         <div id ="main_menutitle">
+                         <asp:Label ID="Label1" runat="server" Text="Main Menu"></asp:Label>
+                         </div>
+                        <br />
+                        <li> <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/UI/Home.aspx">Home</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/UI/About.aspx">About</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/UI/ContractUs.aspx">Contact Us</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/UI/Portfolio.aspx">Portfolio</asp:HyperLink></li>
+                        <li> <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/UI/History.aspx">History</asp:HyperLink></li>
+                        
+                          
+                        
+                    </ul>
+  
+                    </aside>--%>
+                    <div id="contentplace">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+
+
+            </asp:ContentPlaceHolder>
+        </div>
+                </section>
+                 
+
+                <footer id="footer">
+                </footer>
+                
+            </div>
+        </asp:Panel>
+
+       
+    </form>
+</body>
+
+</html>

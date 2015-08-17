@@ -1,0 +1,138 @@
+﻿
+#Panel1{
+    width:100%;
+    height:auto;
+}
+#wrapper{
+    width:960px;
+    background-color:rgba(142, 152, 172, 0.52);
+    margin:auto;
+
+}
+
+#header{
+
+    width:960px;
+    height:200px;
+ 
+}
+#nav{
+  
+    height:45px;
+    background:linear-gradient(to top,#c2bcb5,#ffffff);
+    /*overflow:hidden;*/
+}
+#menu{
+    text-align:center;
+}
+#menu ul{
+
+}
+#nav ul li {
+    float:left;
+    width:120px;
+    margin-top:2px;
+    text-transform:uppercase;
+    /*padding:0 20px 0 20px;*/
+    /*border-left:1px outset #ff0000;*/
+}
+#nav ul li a {
+    
+   background:linear-gradient(to top,#c2bcb5,#ffffff);
+   display:block;
+   padding:10px;
+}
+#nav ul li ul {
+    
+   
+   display:none;
+  
+}
+#nav ul li:hover ul {
+    
+   
+   display:block;
+
+  
+}
+
+
+
+#menu a:link,#menu a:visited,#menu a:active{
+    color:#0094ff;
+
+}
+#menu a:hover{
+    background-color:#00ff21;
+
+}
+/*#aside{
+ 
+   width:190px;
+
+   background:linear-gradient(to top,#c2bcb5,#ffffff);
+   overflow:scroll;
+}
+#main_menu{
+   
+    width:150px;
+    text-align:left;
+    background-color:rgba(142, 157, 143, 0.31);
+  
+  
+}
+#main_menu ul{
+    
+}
+#aside ul li{
+   
+    margin-top:0;
+    text-transform:uppercase;
+    padding:0 20px 0 20px;
+    
+}*/
+#section{
+  padding:20px;
+  /*height:400px;*/
+
+}
+#contentplace{
+    
+}
+#footer{
+    padding:10px;
+    min-height:45px;
+    background:repeating-linear-gradient(to top,#c2bcb5,#ffffff);
+    text-align:center;
+   
+
+
+}
+#leftHome{
+  
+
+
+}
+#rightHome{
+    
+    
+ 
+}
+
+#about{
+    height:400px;
+}
+
+#contractUser{
+    height:400px;
+}
+#history{
+    height:400px;
+}
+
+
+
+
+
+
+

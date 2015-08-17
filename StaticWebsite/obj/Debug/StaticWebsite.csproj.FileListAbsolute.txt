@@ -1,0 +1,6 @@
+F:\C#\Ongoing\StaticWebsite\StaticWebsite\bin\StaticWebsite.dll.config
+F:\C#\Ongoing\StaticWebsite\StaticWebsite\bin\StaticWebsite.dll
+F:\C#\Ongoing\StaticWebsite\StaticWebsite\bin\StaticWebsite.pdb
+F:\C#\Ongoing\StaticWebsite\StaticWebsite\obj\Debug\StaticWebsite.dll
+F:\C#\Ongoing\StaticWebsite\StaticWebsite\obj\Debug\StaticWebsite.pdb
+F:\C#\Ongoing\StaticWebsite\StaticWebsite\obj\Debug\StaticWebsite.csprojResolveAssemblyReference.cache
